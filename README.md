@@ -1,3 +1,32 @@
+Added
+
+SendMessaging.cs
+
+in FcmSharp Project
+
+Sample to use in VB.NET
+
+```csharp
+
+Imports FcmSharp
+
+Public Class frmFBT
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim title As String = TextBox1.Text
+        Dim body As String = TextBox2.Text
+        Dim topic As String = TextBox3.Text
+        Dim key As String = "D:\syaec-de83f-firebase-adminsdk-qqfpk-3af0761d14.json"
+
+        MsgBox(SendMessaging.Execute(title, body, topic, key))
+
+    End Sub
+
+End Class
+
+```
+
 # FcmSharp #
 
 [![stable](https://img.shields.io/nuget/v/FcmSharp.svg?label=stable)](https://www.nuget.org/packages/FcmSharp/)
