@@ -17,7 +17,7 @@ Public Class frmFBT
         Dim title As String = TextBox1.Text
         Dim body As String = TextBox2.Text
         Dim topic As String = TextBox3.Text
-        Dim key As String = "D:\syaec-de83f-firebase-adminsdk-qqfpk-3af0761d14.json"
+        Dim key As String = "D:\XXX.json"
 
         MsgBox(SendMessaging.Execute(title, body, topic, key))
 
