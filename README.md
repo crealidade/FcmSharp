@@ -6,7 +6,7 @@ in FcmSharp Project
 
 Sample to use in VB.NET
 
-```csharp
+```vb
 
 Imports FcmSharp
 
